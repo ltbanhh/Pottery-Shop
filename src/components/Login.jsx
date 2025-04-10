@@ -24,7 +24,7 @@ export function Login() {
   return (
     <div className="bg-gray-100 min-h-screen flex items-center justify-center">
       <div className="bg-white flex rounded-2xl shadow-lg max-w-3xl p-5 items-center">
-        <div className="md:w-3/5 px-8 md:px-16">
+        <div className="md:w-1/2 px-8 md:px-8">
           <h2 className="font-bold text-2xl text-[#894A2A]">Login</h2>
           <p className="text-xs mt-4 text-[#894A2A]">If you are already a member, easily log in</p>
 
@@ -91,7 +91,7 @@ export function Login() {
           </div>
         </div>
 
-        <div className="md:block hidden w-2/5">
+        <div className="md:block hidden w-1/2">
           <img className="rounded-xl" 
             src="https://file.hstatic.net/1000217270/article/gom_bat_trang_21_604c7f48e7f74a99a1bfc808bff191b2_grande.jpeg"/>
         </div>
